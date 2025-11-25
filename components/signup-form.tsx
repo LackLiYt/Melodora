@@ -14,7 +14,7 @@ import {
   FieldLabel,
 } from "@/components/ui/field"
 import { Input } from "@/components/ui/input"
-import { signup } from "@/app/login/actions"
+import { signup } from "@/app/signup/actions"
 import Link from "next/link"
 
 export function SignupForm({
