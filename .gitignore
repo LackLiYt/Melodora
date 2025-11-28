@@ -1,41 +1,84 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
 
-# dependencies
-/node_modules
-/.pnp
-.pnp.*
-.yarn/*
-!.yarn/patches
-!.yarn/plugins
-!.yarn/releases
-!.yarn/versions
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv
+python_back/venv/
+python_back/env/
 
-# testing
-/coverage
+# Python Environment Variables
+.env
+.env.local
+.env.*.local
+python_back/.env
 
-# next.js
-/.next/
-/out/
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
 
-# production
-/build
-
-# misc
+# OS
 .DS_Store
-*.pem
+Thumbs.db
 
-# debug
+# Node.js (for Next.js)
+node_modules/
+nextjs/node_modules/
+.next/
+nextjs/.next/
+out/
+nextjs/out/
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-.pnpm-debug.log*
 
-# env files (can opt-in for committing if needed)
-.env*
+# Model Cache (HuggingFace, etc.)
+.cache/
+.huggingface/
+*.bin
+*.safetensors
+transformers_cache/
+models/
 
-# vercel
-.vercel
+# Temporary files
+*.tmp
+*.temp
+*.log
+tmp/
+temp/
 
-# typescript
-*.tsbuildinfo
-next-env.d.ts
+# Audio files (if downloaded)
+*.mp3
+*.wav
+*.flac
+*.m4a
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
