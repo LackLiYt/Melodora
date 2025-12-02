@@ -4,7 +4,7 @@ A FastAPI-based backend service for extracting audio features and comparing song
 
 🚀 Features
 
-Upload a song via API (YouTube link or file)
+Upload a song via API (YouTube link)
 
 Extract audio embeddings using librosa
 
